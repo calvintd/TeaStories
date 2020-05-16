@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Didact Gothic', sans-serif;
+  background-color: #ffe6cc;
+}
+
+.website-header {
+  background-color: #ffd9b3;
+  border: 4px dotted #ffb366;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+}
+
+.website-icon {
+  margin-bottom: -30px;
+}
+
+blockquote {
+  font-weight: bold;
+  font-style: italic;
+}
+
+blockquote::before {
+  content: open-quote;
+}
+
+blockquote::after {
+  content: close-quote;
+}
+
+nav {
+  background-color: #ffe0b3;
+  border: 4px dotted #ffc266;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-left: 50px;
+  padding-right: 20px;
+  width: max-content;
+}
+
+nav a {
+  color: #ff8000;
+}
+
+nav a:hover {
+  color: #995c00;
+}
+
+nav a:visited {
+  color: #c68c53;
+}
+
+main {
+   padding: 10px;
+   overflow: auto;
+}
+
+.content {
+  background-color: #ffcc80;
+  border: 5px double #ffad33;
+  border-radius: 5px;
+  float: left;
+  width: 70%;
+  padding: 20px;
+}
+
+h2, h3 {
+  text-align: center;
+  margin: auto;
+}
+
+.main-image {
+  display: block;
+  margin: auto;
+  max-width: 50%;
+  margin-top: 20px;
+  border: 2px solid #b36b00;
+  border-radius: 15px;
+}
+
+.tea-image {
+  display: block;
+  margin: auto;
+  max-width: 40%;
+  margin-top: 10px;
+  border: 2px solid #b36b00;
+  border-radius: 10px;
+}
+
+aside {
+  float: right;
+  width: 25%;
+}
+
+.identity {
+  background-color: #ffd9b3;
+  border: 4px dotted #ffb366;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.identity img {
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #ffcc80;
+  border: 5px double #ffad33;
+  border-radius: 5px;
+}
+
+footer h3 {
+  margin-top: 10px;
+}
+
+footer li {
+  margin-right: 50px;
+}
+
+.cit:target, .cit-ref:target {
+  background-color: #ffe0b3;
+}
+
+.cit-top {
+  display: inline-block;
+}
