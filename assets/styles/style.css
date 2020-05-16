@@ -123,10 +123,10 @@ footer li {
   margin-right: 50px;
 }
 
-.cit:target, .cit-ref:target {
-  background-color: #ffe0b3;
+.cit-top {
+  font-size: 80%;
 }
 
-.cit-top {
-  display: inline-block;
+.cit:target, .cit-ref:target {
+  background-color: #ffe0b3;
 }
