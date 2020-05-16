@@ -121,10 +121,11 @@ footer h3 {
 
 footer li {
   margin-right: 50px;
+  margin: 2px;
 }
 
 .cit-top {
-  font-size: 80%;
+  font-size: 70%;
 }
 
 .cit:target, .cit-ref:target {
