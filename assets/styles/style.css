@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
 
 * {
    box-sizing: border-box;
 }
 
 body {
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Tinos', serif;
   background-color: #ffe6cc;
 }
 
@@ -66,8 +66,21 @@ main {
   border: 5px double #ffad33;
   border-radius: 5px;
   float: left;
+  font-size: 110%;
   width: 70%;
   padding: 20px;
+}
+
+.content a, footer a {
+  color: #806000;
+}
+
+.content a:hover, footer a:hover {
+  color: #ffecb3;
+}
+
+.content a:visited, footer a:visited {
+  color: #997300;
 }
 
 h2, h3 {
@@ -99,8 +112,8 @@ aside {
 }
 
 .identity {
-  background-color: #ffd9b3;
-  border: 4px dotted #ffb366;
+  background-color: #ffcc66;
+  border: 3px dashed #cc8800;
   border-radius: 5px;
   text-align: center;
 }
@@ -110,8 +123,8 @@ aside {
 }
 
 footer {
-  background-color: #ffcc80;
-  border: 5px double #ffad33;
+  background-color: #ffbf80;
+  border: 2px dashed #ff8c1a;
   border-radius: 5px;
 }
 
