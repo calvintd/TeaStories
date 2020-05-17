@@ -97,6 +97,10 @@ h2, h3 {
   border-radius: 15px;
 }
 
+hr.dot-border {
+  border-top: 2px dotted #e67300;
+}
+
 .tea-image {
   display: block;
   margin: auto;
@@ -104,6 +108,12 @@ h2, h3 {
   margin-top: 10px;
   border: 2px solid #b36b00;
   border-radius: 10px;
+}
+
+figcaption {
+  margin-top: 5px;
+  font-size: 90%;
+  text-align: center;
 }
 
 aside {
