@@ -68,7 +68,7 @@ main {
   float: left;
   font-size: 110%;
   width: 70%;
-  padding: 20px;
+  padding: 15px;
 }
 
 .content a, footer a {
@@ -107,19 +107,19 @@ h2, h3 {
 }
 
 aside {
-  float: right;
-  width: 25%;
-}
-
-.identity {
   background-color: #ffcc66;
   border: 3px dashed #cc8800;
   border-radius: 5px;
+  float: right;
+  padding: 10px;
+  padding-top: 10px;
   text-align: center;
+  width: 25%;
 }
 
-.identity img {
+aside img {
   margin-top: 10px;
+  max-width: 80%;
 }
 
 footer {
@@ -143,4 +143,22 @@ footer li {
 
 .cit:target, .cit-ref:target {
   background-color: #ffe0b3;
+}
+
+@media screen and (max-width: 1080px) {
+     .content {
+       font-size: 120%;
+       margin-bottom: 20px;
+       padding: 5;
+       width: 100%;
+    }
+    aside {
+      font-size: 150%;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+     nav {
+       font-size: 110%;
+       margin-left: 20px;
+     }
 }
